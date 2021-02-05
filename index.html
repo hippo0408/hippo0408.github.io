@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>おみくじ</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Window</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="title">
-        <h1>AREALIZEおみくじ！！</h1>
+    <div id="open">
+        詳細を見る
     </div>
- <div id="btn">
-?
- </div>  
-    
 
-  <script  src="main.js"></script>
+<div id="mask" class="hidden"></div>
+
+<section id="modal" class="hidden">
+    <p>こんにちわ。</p>
+<div id="close">
+    閉じる
+</div>
+</section>
+
+<script src="js/main.js"></script>
 </body>
 </html>
